@@ -11,7 +11,7 @@
 
         <!--NaN-->
 
-        <!-- TrustBox widget - Micro Review Count --><!--
+        <!-- TrustBox widget - Micro Review Count -->
         <?php if($user->getDataById($userid,'darkmode')){ ?>
 
             <div class="trustpilot-widget" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="5ebbe8488b381c000123ca58" data-style-height="24px" data-style-width="110%" data-theme="dark">
@@ -26,7 +26,6 @@
 
         <link href="<?= $helper->cdnUrl(); ?>assets/css/themes/layout/aside/dark.css" rel="stylesheet" type="text/css" />
 	    <?php } ?>
-        -->
         <!-- End TrustBox widget -->
 
     </div>
