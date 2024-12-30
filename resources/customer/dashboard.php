@@ -21,7 +21,7 @@ if(isset($_POST['renewPin'])){
             <div class="row">
 
                 <?php
-                $SQL = $db -> prepare("SELECT * FROM `tickets` WHERE `user_id` = :user_id AND `state` = 'OPEN' AND `last_msg` = 'SUPPORT'");
+                $SQL = $db -> prepare("SELECT * FROM `ticket1s` WHERE `user_id` = :user_id AND `state` = 'OPEN' AND `last_msg` = 'SUPPORT'");
                 $SQL->execute(array(":user_id" => $userid));
                 if ($SQL->rowCount() != 0) {
                 ?>
@@ -222,10 +222,10 @@ if(isset($_POST['renewPin'])){
                                     <br>
                                     <br>
                                     <h4>Unser Teamspeak</h4>
-                                    <span class="badge badge-primary">ts.black-host.eu</span>
+                                    <span class="badge badge-primary">hosthorizon.de</span>
                                     <br>
                                     <br>
-                                    <a href="ts3server://ts.black-host.eu" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt verbinden</b></a>
+                                    <a href="ts3server://hosthorizon.de" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt verbinden</b></a>
                                 </div>
 
                                 <div class="col-md-3 text-center">
@@ -236,10 +236,10 @@ if(isset($_POST['renewPin'])){
                                     <br>
                                     <br>
                                     <h4>Unser Twitter-Account</h4>
-                                    <span class="badge badge-primary">@blackhosteu</span>
+                                    <span class="badge badge-primary">@hosthorizonde</span>
                                     <br>
                                     <br>
-                                    <a href="https://twitter.com/BlackHostEU" target="_blank" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
+                                    <a href="https://twitter.com/HostHorizonDE" target="_blank" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
                                 </div>
 
                                 <div class="col-md-3 text-center">
@@ -250,10 +250,10 @@ if(isset($_POST['renewPin'])){
                                     <br>
                                     <br>
                                     <h4>Unser Discord-Server</h4>
-                                    <span class="badge badge-primary">dsc.gg/black-host</span>
+                                    <span class="badge badge-primary">dsc.gg/hosthorizon</span>
                                     <br>
                                     <br>
-                                    <a href="https://dsc.gg/black-host" target="_blank" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
+                                    <a href="https://dsc.gg/hosthorizon" target="_blank" class="btn btn-outline-primary btn-block"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
                                 </div>
 
                                 <div class="col-md-3 text-center">
@@ -264,10 +264,10 @@ if(isset($_POST['renewPin'])){
                                     <br>
                                     <br>
                                     <h4>Unser Instagram-Account</h4>
-                                    <span class="badge badge-primary">@blackhosteu</span>
+                                    <span class="badge badge-primary">@hosthorizonde</span>
                                     <br>
                                     <br>
-                                    <a href="https://twitter.com/BlackHostEU" target="_blank" class="btn btn-outline-primary btn-block disabled"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
+                                    <a href="https://twitter.com/HostHorizonDE" target="_blank" class="btn btn-outline-primary btn-block disabled"><b><i class="fas fa-sign-in-alt"></i> Jetzt Anschauen</b></a>
                                 </div>
 
                                 <!--<div class="col-md-3">

@@ -6,7 +6,7 @@
                 <ul class="menu-nav ">
                     <li class="menu-item menu-item-submenu menu-item-rel menu-item-active" data-menu-toggle="click" aria-haspopup="true">
                         <font size="3">
-                            <!--<b><?= $site->getWelcomeText(date('H')); ?></b>-->
+                            <b><?= $site->getWelcomeText(date('H')); ?></b>
 							Willkommen bei <?= env('APP_NAME'); ?> <u style="color:<?= env('MAIN_COLOR'); ?>"><b style="color:<?= env('MAIN_COLOR'); ?>">
 							<?= $username ?></b></u>.
 							<br>
@@ -53,28 +53,28 @@
                 <?php } ?>
 
 
-                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://status.black-host.eu');">
+                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://status.hosthorizon.de');">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1 pulse pulse-primary" 
 						 data-toggle="tooltip" title="Zum Serverstatus">
                         <i class="fas fa-server" style="color:#6254FE;"></i>
                     </div>
                 </div>
 			
-                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://twitter.com/BlackHostEU');">
+                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://twitter.com/HostHorizonDE');">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1 pulse pulse-primary"
 						 data-toggle="tooltip" title="Unser Twitter Account">
                         <i class="fab fa-twitter" style="color:#6254FE;"></i>
                     </div>
                 </div>
 
-                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('ts3server://ts.black-host.eu');">
+                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('ts3server://hosthorizon.de');">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1 pulse pulse-primary"
 						 data-toggle="tooltip" title="Unser Teamspeak Server">
                         <i class="fab fa-teamspeak" style="color:#6254FE;"></i>
                     </div>	
                 </div>
 
-                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://dsc.gg/black-host');">
+                <div class="topbar-item" data-toggle="dropdown" data-offset="10px,0px" onclick="window.open('https://dsc.gg/hosthorizon');">
                     <div class="btn btn-icon btn-clean btn-dropdown btn-lg mr-1 pulse pulse-primary"
 						 data-toggle="tooltip" title="Unser Discord Server">
                         <i class="fab fa-discord" style="color:#6254FE;"></i>
